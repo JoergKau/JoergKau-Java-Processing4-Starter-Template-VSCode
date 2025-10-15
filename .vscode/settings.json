@@ -1,0 +1,16 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/Users/joka/Documents/DokumenteMacMini/ProcessingFiles/jdk",
+            "default": true
+        }
+    ],
+    "java.project.sourcePaths": ["src"],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.help.firstView": "gettingStarted",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

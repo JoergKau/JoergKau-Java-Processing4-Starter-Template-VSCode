@@ -1,0 +1,24 @@
+# Compiled class files
+bin/
+*.class
+
+# Package Files
+*.jar
+!lib/*.jar
+
+# macOS
+.DS_Store
+
+# VS Code Java extension workspace storage
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~

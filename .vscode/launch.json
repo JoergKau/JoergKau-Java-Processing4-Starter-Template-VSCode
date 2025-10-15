@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run WindsurfSketch",
+            "request": "launch",
+            "mainClass": "WindsurfSketch",
+            "projectName": "windsurf-project",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/core-4.4.8.jar",
+                "${workspaceFolder}/lib/gluegen-rt-2.5.0-natives-macosx-universal.jar",
+                "${workspaceFolder}/lib/gluegen-rt-2.5.0.jar",
+                "${workspaceFolder}/lib/jogl-all-2.5.0-natives-macosx-universal.jar",
+                "${workspaceFolder}/lib/jogl-all-2.5.0.jar"
+            ]
+        }
+    ]
+}
