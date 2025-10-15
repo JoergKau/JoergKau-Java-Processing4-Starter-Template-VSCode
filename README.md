@@ -1,4 +1,4 @@
-# Windsurf Processing Project
+# Java-Processing4-Project
 
 A Processing sketch implemented as a standard Java project with frame-rate independent animation. It could be a simple template for a start with Java and Processing 4. I generated a javadoc file for the core lib, which is not available in the Processing 4.4.8 release (only via URL: https://processing.github.io/processing4-javadocs/)
 
