@@ -1,6 +1,6 @@
 # Java-Processing4-Project
 
-A Processing sketch implemented as a standard Java project with frame-rate independent animation. It could be a simple template for a start with Java and Processing 4. I generated a javadoc file for the core lib, which is not available in the Processing 4.4.8 release (only via URL: https://processing.github.io/processing4-javadocs/)
+A Processing sketch implemented as a standard Java project with frame-rate independent animation. It could be a simple template for a start with Java and Processing 4 on MAc OS. I generated a javadoc file for the core lib, which is not available in the Processing 4.4.8 release (only via URL: https://processing.github.io/processing4-javadocs/)
 
 ## Project Structure
 
@@ -81,8 +81,9 @@ mv core-4.4.8-javadoc.jar lib/
 
 ### Processing Library
 
-- Version: 4.4.8 ("core-4.4.8.jar")
+- Version: 4.4.8 ("core-4.4.8.jar") and all the files needed when you want to use the P2D Processing renderer (JOGL, GLUE and Natives)
 - Core library and dependencies located in `lib/`
+- the natives are for Mac OS only. For Windows or Linux you have their own libs (included in the Processing installation)
 
 ### IDE Configuration Files
 
