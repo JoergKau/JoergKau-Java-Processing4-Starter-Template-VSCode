@@ -75,12 +75,13 @@ mv core-4.4.8-javadoc.jar lib/
 
 ### Requirements
 
-- **Java JDK 17** or higher (Processing 4 is built on Java 17)
+- this template is for using VS Code if you do not want use the Processing IDE
+- **Java JDK 17** (Processing 4 is built on Java 17)
 - Configure your JDK path in `.vscode/settings.json`
 
 ### Processing Library
 
-- Version: 4.4.8
+- Version: 4.4.8 ("core-4.4.8.jar")
 - Core library and dependencies located in `lib/`
 
 ### IDE Configuration Files
@@ -92,7 +93,6 @@ The project uses Eclipse project files (`.classpath`, `.project`, `.settings/`) 
 - Library dependencies
 - Java compiler settings
 
-**Note**: Only `.idea/` (IntelliJ IDEA) files are unnecessary for Windsurf/VS Code.
 
 ## Notes
 
